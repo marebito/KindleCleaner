@@ -1,4 +1,4 @@
-# KindleCleaner --- The Best Tool for Cleaning Kindle Residues
+# KindleCleaner --- The Best Tool for Cleaning Kindle Residues.
 ---
 
 ## Use
