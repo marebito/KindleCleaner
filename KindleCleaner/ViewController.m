@@ -3,19 +3,20 @@
 //  KindleCleaner
 //
 //  Created by Yuri Boyka on 2019/3/22.
-//  Copyright © 2019 Yuri Boyka. All rights reserved.
+//  Copyright © 2019 Godlike Studio. All rights reserved.
 //
 
 #import "ViewController.h"
 #import "ZMDragDropView.h"
 #import "ZMAlert.h"
-#import "ZMIndicator.h"
+#import "AboutWindowController.h"
 
 @interface ViewController ()<ZMDragDropViewDelegate>
 @property(weak) IBOutlet ZMDragDropView *dragDropView;
 @property(weak) IBOutlet NSImageView *statusImageView;
 @property(weak) IBOutlet NSView *kindleImageView;
 @property(weak) IBOutlet NSButton *resetBtn;
+@property(nonatomic, strong) AboutWindowController *aboutWindowController;
 - (IBAction)reset:(id)sender;
 @end
 
@@ -25,6 +26,17 @@
 {
     [super viewDidLoad];
     self.dragDropView.delegate = self;
+    self.aboutWindowController = [[AboutWindowController alloc] init];
+    [self.aboutWindowController setAppURL:[NSURL URLWithString:@"https://github.com/marebito/KindleCleaner"]];
+    [self.aboutWindowController
+        setAppCopyright:[[NSAttributedString alloc]
+                            initWithString:@"欢迎使用KindleCleaner，喜欢的话，请点亮Star"
+                                attributes:@{
+                                    NSForegroundColorAttributeName : [NSColor tertiaryLabelColor],
+                                    NSFontAttributeName : [NSFont fontWithName:@"HelveticaNeue" size:11]
+                                }]];
+    [self.aboutWindowController
+        setAppName:[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleDisplayName"]];
 }
 - (void)setRepresentedObject:(id)representedObject { [super setRepresentedObject:representedObject]; }
 - (void)dragDropViewFileList:(NSArray *)fileList
@@ -87,4 +99,6 @@
     self.kindleImageView.hidden = YES;
     self.resetBtn.hidden = YES;
 }
+
+- (IBAction)showHelp:(id)sender { [self.aboutWindowController showWindow:nil]; }
 @end

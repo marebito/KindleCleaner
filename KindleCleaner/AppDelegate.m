@@ -3,7 +3,7 @@
 //  KindleCleaner
 //
 //  Created by Yuri Boyka on 2019/3/22.
-//  Copyright © 2019 Yuri Boyka. All rights reserved.
+//  Copyright © 2019 Godlike Studio. All rights reserved.
 //
 
 #import "AppDelegate.h"

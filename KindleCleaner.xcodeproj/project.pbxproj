@@ -18,7 +18,10 @@
 		54C6A97C22447C640005F520 /* ZMFileOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6A97B22447C640005F520 /* ZMFileOperation.m */; };
 		54C6A97F2244821D0005F520 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C6A97E2244821D0005F520 /* CoreGraphics.framework */; };
 		54C6A9832244B0AD0005F520 /* KindleCleaner.sh in Resources */ = {isa = PBXBuildFile; fileRef = 54C6A9822244B0AD0005F520 /* KindleCleaner.sh */; };
-		54C6A9862244C2680005F520 /* ZMIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6A9842244C2670005F520 /* ZMIndicator.m */; };
+		54C6A98B2244C86D0005F520 /* AboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6A9882244C86D0005F520 /* AboutWindowController.m */; };
+		54C6A98C2244C86D0005F520 /* AboutWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54C6A9892244C86D0005F520 /* AboutWindow.xib */; };
+		54C6A98F2244CBCD0005F520 /* EULA.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 54C6A98D2244CBCD0005F520 /* EULA.rtf */; };
+		54C6A9902244CBCD0005F520 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 54C6A98E2244CBCD0005F520 /* Credits.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,8 +45,11 @@
 		54C6A97B22447C640005F520 /* ZMFileOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMFileOperation.m; sourceTree = "<group>"; };
 		54C6A97E2244821D0005F520 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		54C6A9822244B0AD0005F520 /* KindleCleaner.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = KindleCleaner.sh; sourceTree = "<group>"; };
-		54C6A9842244C2670005F520 /* ZMIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMIndicator.m; sourceTree = "<group>"; };
-		54C6A9852244C2680005F520 /* ZMIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMIndicator.h; sourceTree = "<group>"; };
+		54C6A9882244C86D0005F520 /* AboutWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutWindowController.m; sourceTree = "<group>"; };
+		54C6A9892244C86D0005F520 /* AboutWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutWindow.xib; sourceTree = "<group>"; };
+		54C6A98A2244C86D0005F520 /* AboutWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutWindowController.h; sourceTree = "<group>"; };
+		54C6A98D2244CBCD0005F520 /* EULA.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = EULA.rtf; sourceTree = "<group>"; };
+		54C6A98E2244CBCD0005F520 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,8 @@
 				54C6A967224471450005F520 /* Info.plist */,
 				54C6A968224471450005F520 /* main.m */,
 				54C6A9822244B0AD0005F520 /* KindleCleaner.sh */,
+				54C6A98E2244CBCD0005F520 /* Credits.rtf */,
+				54C6A98D2244CBCD0005F520 /* EULA.rtf */,
 				54C6A96A224471450005F520 /* KindleCleaner.entitlements */,
 			);
 			path = KindleCleaner;
@@ -98,8 +106,7 @@
 		54C6A97322447C4E0005F520 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
-				54C6A9852244C2680005F520 /* ZMIndicator.h */,
-				54C6A9842244C2670005F520 /* ZMIndicator.m */,
+				54C6A9872244C86D0005F520 /* AboutWindow */,
 				54C6A97422447C4E0005F520 /* ZMAlert.h */,
 				54C6A97622447C4E0005F520 /* ZMAlert.m */,
 				54C6A970224476EB0005F520 /* ZMWireframe.h */,
@@ -116,6 +123,16 @@
 				54C6A97E2244821D0005F520 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54C6A9872244C86D0005F520 /* AboutWindow */ = {
+			isa = PBXGroup;
+			children = (
+				54C6A9882244C86D0005F520 /* AboutWindowController.m */,
+				54C6A98A2244C86D0005F520 /* AboutWindowController.h */,
+				54C6A9892244C86D0005F520 /* AboutWindow.xib */,
+			);
+			path = AboutWindow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,9 +192,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C6A98F2244CBCD0005F520 /* EULA.rtf in Resources */,
+				54C6A9902244CBCD0005F520 /* Credits.rtf in Resources */,
 				54C6A9832244B0AD0005F520 /* KindleCleaner.sh in Resources */,
 				54C6A963224471450005F520 /* Assets.xcassets in Resources */,
 				54C6A966224471450005F520 /* Main.storyboard in Resources */,
+				54C6A98C2244C86D0005F520 /* AboutWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,13 +209,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				54C6A961224471440005F520 /* ViewController.m in Sources */,
+				54C6A98B2244C86D0005F520 /* AboutWindowController.m in Sources */,
 				54C6A97C22447C640005F520 /* ZMFileOperation.m in Sources */,
 				54C6A972224476EB0005F520 /* ZMWireframe.m in Sources */,
 				54C6A97822447C4E0005F520 /* ZMAlert.m in Sources */,
 				54C6A969224471450005F520 /* main.m in Sources */,
 				54C6A97922447C4E0005F520 /* ZMDragDropView.m in Sources */,
 				54C6A95E224471440005F520 /* AppDelegate.m in Sources */,
-				54C6A9862244C2680005F520 /* ZMIndicator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

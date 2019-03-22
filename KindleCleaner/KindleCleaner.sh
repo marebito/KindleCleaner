@@ -39,7 +39,6 @@ for SDR in $SDR_LIST; do
     RESULT=$(find $FILE_DIR -name "$FILE_NAME*" | grep -v "$FILE_NAME.sdr")
     if [[ $RESULT == "" ]]; then
       rm -rf $SDR
-#      mbp
     fi
   fi
 done

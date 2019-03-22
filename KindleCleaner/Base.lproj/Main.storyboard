@@ -658,11 +658,12 @@
                             </menuItem>
                             <menuItem title="Help" id="wpr-3q-Mcd">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
+                                <menu key="submenu" title="Help" systemMenu="help" id="Ive-gb-QRj">
                                     <items>
-                                        <menuItem title="KindleCleaner Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                        <menuItem title="About" id="CDR-XC-oZe">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
-                                                <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
+                                                <action selector="showHelp:" target="Ady-hI-5gd" id="gSs-j5-8AV"/>
                                             </connections>
                                         </menuItem>
                                     </items>
