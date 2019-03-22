@@ -6,9 +6,9 @@
 //  Copyright © 2019 Yuri Boyka. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Cocoa/Cocoa.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : NSViewController
 
 
 @end

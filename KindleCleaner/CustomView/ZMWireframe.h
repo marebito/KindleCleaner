@@ -1,5 +1,5 @@
 //
-//  main.m
+//  ZMWireframe.h
 //  KindleCleaner
 //
 //  Created by Yuri Boyka on 2019/3/22.
@@ -8,6 +8,10 @@
 
 #import <Cocoa/Cocoa.h>
 
-int main(int argc, const char * argv[]) {
-    return NSApplicationMain(argc, argv);
-}
+NS_ASSUME_NONNULL_BEGIN
+
+@interface ZMWireframe : NSView
+
+@end
+
+NS_ASSUME_NONNULL_END

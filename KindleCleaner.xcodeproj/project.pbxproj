@@ -7,80 +7,127 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54C6A91A22446F710005F520 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6A91922446F710005F520 /* AppDelegate.m */; };
-		54C6A91D22446F710005F520 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6A91C22446F710005F520 /* ViewController.m */; };
-		54C6A92022446F710005F520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C6A91E22446F710005F520 /* Main.storyboard */; };
-		54C6A92222446F720005F520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C6A92122446F720005F520 /* Assets.xcassets */; };
-		54C6A92522446F720005F520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C6A92322446F720005F520 /* LaunchScreen.storyboard */; };
-		54C6A92822446F720005F520 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6A92722446F720005F520 /* main.m */; };
+		54C6A95E224471440005F520 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6A95D224471440005F520 /* AppDelegate.m */; };
+		54C6A961224471440005F520 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6A960224471440005F520 /* ViewController.m */; };
+		54C6A963224471450005F520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C6A962224471450005F520 /* Assets.xcassets */; };
+		54C6A966224471450005F520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C6A964224471450005F520 /* Main.storyboard */; };
+		54C6A969224471450005F520 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6A968224471450005F520 /* main.m */; };
+		54C6A972224476EB0005F520 /* ZMWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6A971224476EB0005F520 /* ZMWireframe.m */; };
+		54C6A97822447C4E0005F520 /* ZMAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6A97622447C4E0005F520 /* ZMAlert.m */; };
+		54C6A97922447C4E0005F520 /* ZMDragDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6A97722447C4E0005F520 /* ZMDragDropView.m */; };
+		54C6A97C22447C640005F520 /* ZMFileOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6A97B22447C640005F520 /* ZMFileOperation.m */; };
+		54C6A97F2244821D0005F520 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C6A97E2244821D0005F520 /* CoreGraphics.framework */; };
+		54C6A9832244B0AD0005F520 /* KindleCleaner.sh in Resources */ = {isa = PBXBuildFile; fileRef = 54C6A9822244B0AD0005F520 /* KindleCleaner.sh */; };
+		54C6A9862244C2680005F520 /* ZMIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6A9842244C2670005F520 /* ZMIndicator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		54C6A91522446F710005F520 /* KindleCleaner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindleCleaner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		54C6A91822446F710005F520 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		54C6A91922446F710005F520 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		54C6A91B22446F710005F520 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		54C6A91C22446F710005F520 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		54C6A91F22446F710005F520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		54C6A92122446F720005F520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		54C6A92422446F720005F520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		54C6A92622446F720005F520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54C6A92722446F720005F520 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54C6A959224471440005F520 /* KindleCleaner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindleCleaner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C6A95C224471440005F520 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54C6A95D224471440005F520 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54C6A95F224471440005F520 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		54C6A960224471440005F520 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54C6A962224471450005F520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54C6A965224471450005F520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54C6A967224471450005F520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C6A968224471450005F520 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54C6A96A224471450005F520 /* KindleCleaner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KindleCleaner.entitlements; sourceTree = "<group>"; };
+		54C6A970224476EB0005F520 /* ZMWireframe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMWireframe.h; sourceTree = "<group>"; };
+		54C6A971224476EB0005F520 /* ZMWireframe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMWireframe.m; sourceTree = "<group>"; };
+		54C6A97422447C4E0005F520 /* ZMAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMAlert.h; sourceTree = "<group>"; };
+		54C6A97522447C4E0005F520 /* ZMDragDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMDragDropView.h; sourceTree = "<group>"; };
+		54C6A97622447C4E0005F520 /* ZMAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMAlert.m; sourceTree = "<group>"; };
+		54C6A97722447C4E0005F520 /* ZMDragDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMDragDropView.m; sourceTree = "<group>"; };
+		54C6A97A22447C640005F520 /* ZMFileOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMFileOperation.h; sourceTree = "<group>"; };
+		54C6A97B22447C640005F520 /* ZMFileOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMFileOperation.m; sourceTree = "<group>"; };
+		54C6A97E2244821D0005F520 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		54C6A9822244B0AD0005F520 /* KindleCleaner.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = KindleCleaner.sh; sourceTree = "<group>"; };
+		54C6A9842244C2670005F520 /* ZMIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMIndicator.m; sourceTree = "<group>"; };
+		54C6A9852244C2680005F520 /* ZMIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMIndicator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		54C6A91222446F710005F520 /* Frameworks */ = {
+		54C6A956224471440005F520 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C6A97F2244821D0005F520 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		54C6A90C22446F710005F520 = {
+		54C6A950224471440005F520 = {
 			isa = PBXGroup;
 			children = (
-				54C6A91722446F710005F520 /* KindleCleaner */,
-				54C6A91622446F710005F520 /* Products */,
+				54C6A95B224471440005F520 /* KindleCleaner */,
+				54C6A95A224471440005F520 /* Products */,
+				54C6A97D2244821D0005F520 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		54C6A91622446F710005F520 /* Products */ = {
+		54C6A95A224471440005F520 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54C6A91522446F710005F520 /* KindleCleaner.app */,
+				54C6A959224471440005F520 /* KindleCleaner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		54C6A91722446F710005F520 /* KindleCleaner */ = {
+		54C6A95B224471440005F520 /* KindleCleaner */ = {
 			isa = PBXGroup;
 			children = (
-				54C6A91822446F710005F520 /* AppDelegate.h */,
-				54C6A91922446F710005F520 /* AppDelegate.m */,
-				54C6A91B22446F710005F520 /* ViewController.h */,
-				54C6A91C22446F710005F520 /* ViewController.m */,
-				54C6A91E22446F710005F520 /* Main.storyboard */,
-				54C6A92122446F720005F520 /* Assets.xcassets */,
-				54C6A92322446F720005F520 /* LaunchScreen.storyboard */,
-				54C6A92622446F720005F520 /* Info.plist */,
-				54C6A92722446F720005F520 /* main.m */,
+				54C6A97322447C4E0005F520 /* CustomView */,
+				54C6A95C224471440005F520 /* AppDelegate.h */,
+				54C6A95D224471440005F520 /* AppDelegate.m */,
+				54C6A97A22447C640005F520 /* ZMFileOperation.h */,
+				54C6A97B22447C640005F520 /* ZMFileOperation.m */,
+				54C6A95F224471440005F520 /* ViewController.h */,
+				54C6A960224471440005F520 /* ViewController.m */,
+				54C6A962224471450005F520 /* Assets.xcassets */,
+				54C6A964224471450005F520 /* Main.storyboard */,
+				54C6A967224471450005F520 /* Info.plist */,
+				54C6A968224471450005F520 /* main.m */,
+				54C6A9822244B0AD0005F520 /* KindleCleaner.sh */,
+				54C6A96A224471450005F520 /* KindleCleaner.entitlements */,
 			);
 			path = KindleCleaner;
+			sourceTree = "<group>";
+		};
+		54C6A97322447C4E0005F520 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				54C6A9852244C2680005F520 /* ZMIndicator.h */,
+				54C6A9842244C2670005F520 /* ZMIndicator.m */,
+				54C6A97422447C4E0005F520 /* ZMAlert.h */,
+				54C6A97622447C4E0005F520 /* ZMAlert.m */,
+				54C6A970224476EB0005F520 /* ZMWireframe.h */,
+				54C6A971224476EB0005F520 /* ZMWireframe.m */,
+				54C6A97522447C4E0005F520 /* ZMDragDropView.h */,
+				54C6A97722447C4E0005F520 /* ZMDragDropView.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		54C6A97D2244821D0005F520 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54C6A97E2244821D0005F520 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		54C6A91422446F710005F520 /* KindleCleaner */ = {
+		54C6A958224471440005F520 /* KindleCleaner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54C6A92B22446F720005F520 /* Build configuration list for PBXNativeTarget "KindleCleaner" */;
+			buildConfigurationList = 54C6A96D224471450005F520 /* Build configuration list for PBXNativeTarget "KindleCleaner" */;
 			buildPhases = (
-				54C6A91122446F710005F520 /* Sources */,
-				54C6A91222446F710005F520 /* Frameworks */,
-				54C6A91322446F710005F520 /* Resources */,
+				54C6A955224471440005F520 /* Sources */,
+				54C6A956224471440005F520 /* Frameworks */,
+				54C6A957224471440005F520 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -88,24 +135,24 @@
 			);
 			name = KindleCleaner;
 			productName = KindleCleaner;
-			productReference = 54C6A91522446F710005F520 /* KindleCleaner.app */;
+			productReference = 54C6A959224471440005F520 /* KindleCleaner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		54C6A90D22446F710005F520 /* Project object */ = {
+		54C6A951224471440005F520 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Yuri Boyka";
 				TargetAttributes = {
-					54C6A91422446F710005F520 = {
+					54C6A958224471440005F520 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 54C6A91022446F710005F520 /* Build configuration list for PBXProject "KindleCleaner" */;
+			buildConfigurationList = 54C6A954224471440005F520 /* Build configuration list for PBXProject "KindleCleaner" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,63 +160,60 @@
 				en,
 				Base,
 			);
-			mainGroup = 54C6A90C22446F710005F520;
-			productRefGroup = 54C6A91622446F710005F520 /* Products */;
+			mainGroup = 54C6A950224471440005F520;
+			productRefGroup = 54C6A95A224471440005F520 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				54C6A91422446F710005F520 /* KindleCleaner */,
+				54C6A958224471440005F520 /* KindleCleaner */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		54C6A91322446F710005F520 /* Resources */ = {
+		54C6A957224471440005F520 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54C6A92522446F720005F520 /* LaunchScreen.storyboard in Resources */,
-				54C6A92222446F720005F520 /* Assets.xcassets in Resources */,
-				54C6A92022446F710005F520 /* Main.storyboard in Resources */,
+				54C6A9832244B0AD0005F520 /* KindleCleaner.sh in Resources */,
+				54C6A963224471450005F520 /* Assets.xcassets in Resources */,
+				54C6A966224471450005F520 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		54C6A91122446F710005F520 /* Sources */ = {
+		54C6A955224471440005F520 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54C6A91D22446F710005F520 /* ViewController.m in Sources */,
-				54C6A92822446F720005F520 /* main.m in Sources */,
-				54C6A91A22446F710005F520 /* AppDelegate.m in Sources */,
+				54C6A961224471440005F520 /* ViewController.m in Sources */,
+				54C6A97C22447C640005F520 /* ZMFileOperation.m in Sources */,
+				54C6A972224476EB0005F520 /* ZMWireframe.m in Sources */,
+				54C6A97822447C4E0005F520 /* ZMAlert.m in Sources */,
+				54C6A969224471450005F520 /* main.m in Sources */,
+				54C6A97922447C4E0005F520 /* ZMDragDropView.m in Sources */,
+				54C6A95E224471440005F520 /* AppDelegate.m in Sources */,
+				54C6A9862244C2680005F520 /* ZMIndicator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		54C6A91E22446F710005F520 /* Main.storyboard */ = {
+		54C6A964224471450005F520 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				54C6A91F22446F710005F520 /* Base */,
+				54C6A965224471450005F520 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		54C6A92322446F720005F520 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54C6A92422446F720005F520 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		54C6A92922446F720005F520 /* Debug */ = {
+		54C6A96B224471450005F520 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -201,7 +245,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -220,15 +264,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		54C6A92A22446F720005F520 /* Release */ = {
+		54C6A96C224471450005F520 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -260,7 +304,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -273,70 +317,71 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		54C6A92C22446F720005F520 /* Debug */ = {
+		54C6A96E224471450005F520 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KindleCleaner/KindleCleaner.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = LQW337MH2W;
 				INFOPLIST_FILE = KindleCleaner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.godlike.KindleCleaner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		54C6A92D22446F720005F520 /* Release */ = {
+		54C6A96F224471450005F520 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KindleCleaner/KindleCleaner.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = LQW337MH2W;
 				INFOPLIST_FILE = KindleCleaner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.godlike.KindleCleaner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		54C6A91022446F710005F520 /* Build configuration list for PBXProject "KindleCleaner" */ = {
+		54C6A954224471440005F520 /* Build configuration list for PBXProject "KindleCleaner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54C6A92922446F720005F520 /* Debug */,
-				54C6A92A22446F720005F520 /* Release */,
+				54C6A96B224471450005F520 /* Debug */,
+				54C6A96C224471450005F520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54C6A92B22446F720005F520 /* Build configuration list for PBXNativeTarget "KindleCleaner" */ = {
+		54C6A96D224471450005F520 /* Build configuration list for PBXNativeTarget "KindleCleaner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54C6A92C22446F720005F520 /* Debug */,
-				54C6A92D22446F720005F520 /* Release */,
+				54C6A96E224471450005F520 /* Debug */,
+				54C6A96F224471450005F520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 54C6A90D22446F710005F520 /* Project object */;
+	rootObject = 54C6A951224471440005F520 /* Project object */;
 }
